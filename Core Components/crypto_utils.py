@@ -6,6 +6,7 @@ from cryptography.fernet import Fernet
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 import secrets
+import obfuscation_crypto
 
 
 class CryptoEngine:
@@ -13,6 +14,7 @@ class CryptoEngine:
         self.key_vault_path = key_vault_path
         self.ensure_key_vault()
         self.master_key = self.load_or_create_master_key()
+        self.obfuscator = obfuscation_crypto.ObfuscationEngine()
 
     def ensure_key_vault(self):
         if not os.path.exists(self.key_vault_path):
@@ -179,58 +181,6 @@ class CryptoEngine:
             with open(key_file, "rb") as f:
                 return f.read()
         return None
-
-    def encrypt_message_dual_layer(self, message: str, password: str = None):
-        """Encrypt message with dual layers: AES-256 + XOR + Noise"""
-        try:
-            # Layer 1: AES-256 encryption
-            aes_encrypted = self.encrypt_message(message, password)
-
-            # Layer 2: Simple XOR obfuscation
-            json_data = json.dumps(aes_encrypted)
-            xor_key = secrets.token_bytes(16)
-            xor_encrypted = bytes(
-                [
-                    b ^ xor_key[i % len(xor_key)]
-                    for i, b in enumerate(json_data.encode())
-                ]
-            )
-
-            # Layer 3: Base64 encoding
-            final_encrypted = base64.b64encode(xor_encrypted).decode("utf-8")
-
-            return {
-                "encrypted_data": final_encrypted,
-                "xor_key": base64.b64encode(xor_key).decode("utf-8"),
-                "type": "dual_layer",
-                "inner_type": aes_encrypted["type"],
-                "obfuscation_level": "maximum",
-            }
-
-        except Exception as e:
-            raise Exception(f"Dual-layer encryption failed: {str(e)}")
-
-    def decrypt_message_dual_layer(self, encrypted_package, password: str = None):
-        """Decrypt dual-layer message"""
-        try:
-            # Layer 1: Base64 decode
-            xor_encrypted = base64.b64decode(encrypted_package["encrypted_data"])
-            xor_key = base64.b64decode(encrypted_package["xor_key"])
-
-            # Layer 2: XOR decryption
-            json_data = bytes(
-                [b ^ xor_key[i % len(xor_key)] for i, b in enumerate(xor_encrypted)]
-            ).decode()
-            aes_data = json.loads(json_data)
-
-            # Layer 3: AES-256 decryption
-            inner_type = encrypted_package.get("inner_type", "master_encrypted")
-            aes_data["type"] = inner_type
-
-            return self.decrypt_message(aes_data, password)
-
-        except Exception as e:
-            raise Exception(f"Dual-layer decryption failed: {str(e)}")
 
     def encrypt_message_dual_layer(self, message: str, password: str = None) -> dict:
         """Encrypt message with dual layers: AES-256 + Obfuscation"""
