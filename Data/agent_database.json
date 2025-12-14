@@ -1,0 +1,44 @@
+{
+  "admin": {
+    "password_hash": "6b538fc5621474e0a0abfa6702bbeb64:d527ce85e634a0e2b2f7e7f20dc84523b9a5c90d77c117ddb11bfc1aa8127485",
+    "clearance": "admin",
+    "active": true,
+    "created": "2025-12-13T19:11:59.626007"
+  },
+  "alpha": {
+    "password_hash": "8b54ccacfceeb476029fb8173b052a67:48bff643380f8ffa376daf9adec52fca22d963b0a4f95b24a9ce84f71728596a",
+    "clearance": "field_agent",
+    "active": true,
+    "created": "2025-12-13T19:11:59.735066"
+  },
+  "bravo": {
+    "password_hash": "f709ed5a3416b29de14d95b0501b4a3b:b24c685bd9abafb65726687ce6f5b33b009ba6be0821a3e611715fb9a2a8fbf4",
+    "clearance": "operative",
+    "active": true,
+    "created": "2025-12-13T19:11:59.841573"
+  },
+  "test_agent": {
+    "password_hash": "f5da438eba78f16b5afbb201d72aacb0:165817662df2df39690d7a724639307747874c4aff359288815f0d8f70575302",
+    "clearance": "operative",
+    "active": true,
+    "created": "2025-12-12T18:22:38.318758"
+  },
+  "test_user": {
+    "password_hash": "21fa488d5fbade54ebdec6471f07aa11:7586ad10493381ea980bb41a9b749af22e05b442f1977b711844b679502c8c15",
+    "clearance": "operative",
+    "active": true,
+    "created": "2025-12-12T18:52:57.764856"
+  },
+  "delta": {
+    "password_hash": "dded99c7559dea83f8ccacfdbe7c30bf:a89227b85db892eca60b2c52adf49111feb567c93a67cfef12f3d1133d5f7cc0",
+    "clearance": "operative",
+    "active": true,
+    "created": "2025-12-13T19:08:13.845825"
+  },
+  "charlie": {
+    "password_hash": "935095e907d6415c5351ae1fdbab94c9:6562a8adfd3e710d09fa64c576a124239a12b3ec708ad87d090e258f1dd6e458",
+    "clearance": "operative",
+    "active": true,
+    "created": "2025-12-13T19:08:17.184387"
+  }
+}
