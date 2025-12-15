@@ -1,0 +1,22 @@
+{
+  "session_id": "22380dbb-e3f2-4379-aad4-0f0879ae9d93",
+  "start_time": "2025-12-15T13:38:15.190368",
+  "end_time": "2025-12-15T13:38:15.190388",
+  "message_count": 2,
+  "messages": [
+    {
+      "time": "2025-12-15T13:37:18.220258",
+      "sender": "SYSTEM",
+      "message": "Command Center operational! Type commands and press Enter. Type /quit to exit.",
+      "color": "bright_yellow",
+      "priority": "normal"
+    },
+    {
+      "time": "2025-12-15T13:37:18.220258",
+      "sender": "SYSTEM",
+      "message": "Command Center operational! Type commands and press Enter. Type /quit to exit.",
+      "color": "bright_yellow",
+      "priority": "normal"
+    }
+  ]
+}

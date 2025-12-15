@@ -1,0 +1,36 @@
+{
+  "session_id": "00c552c6-d6e5-4596-9390-f4b75ad398b3",
+  "start_time": "2025-12-15T13:45:33.901821",
+  "end_time": "2025-12-15T13:45:33.901836",
+  "message_count": 4,
+  "messages": [
+    {
+      "time": "2025-12-15T13:45:19.731252",
+      "sender": "SYSTEM",
+      "message": "Authenticated as alpha (field_agent) - Connected to Command Center",
+      "color": "bright_yellow",
+      "priority": "high"
+    },
+    {
+      "time": "2025-12-15T13:45:19.746124",
+      "sender": "SYSTEM",
+      "message": "Operative Terminal active! Type messages and press Enter. Type /quit to exit.",
+      "color": "bright_yellow",
+      "priority": "normal"
+    },
+    {
+      "time": "2025-12-15T13:45:19.731252",
+      "sender": "SYSTEM",
+      "message": "Authenticated as alpha (field_agent) - Connected to Command Center",
+      "color": "bright_yellow",
+      "priority": "high"
+    },
+    {
+      "time": "2025-12-15T13:45:19.746124",
+      "sender": "SYSTEM",
+      "message": "Operative Terminal active! Type messages and press Enter. Type /quit to exit.",
+      "color": "bright_yellow",
+      "priority": "normal"
+    }
+  ]
+}

@@ -6,7 +6,7 @@ from cryptography.fernet import Fernet
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 import secrets
-import obfuscation_crypto
+from obfuscation_crypto import SimpleObfuscation
 
 
 class CryptoEngine:
@@ -14,7 +14,7 @@ class CryptoEngine:
         self.key_vault_path = key_vault_path
         self.ensure_key_vault()
         self.master_key = self.load_or_create_master_key()
-        self.obfuscator = obfuscation_crypto.ObfuscationEngine()
+        self.obfuscator = SimpleObfuscation()
 
     def ensure_key_vault(self):
         if not os.path.exists(self.key_vault_path):

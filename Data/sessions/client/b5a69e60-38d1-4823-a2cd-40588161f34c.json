@@ -1,0 +1,36 @@
+{
+  "session_id": "b5a69e60-38d1-4823-a2cd-40588161f34c",
+  "start_time": "2025-12-15T13:45:33.195021",
+  "end_time": "2025-12-15T13:45:33.195030",
+  "message_count": 4,
+  "messages": [
+    {
+      "time": "2025-12-15T13:45:25.902992",
+      "sender": "SYSTEM",
+      "message": "Authenticated as bravo (operative) - Connected to Command Center",
+      "color": "bright_yellow",
+      "priority": "high"
+    },
+    {
+      "time": "2025-12-15T13:45:25.916575",
+      "sender": "SYSTEM",
+      "message": "Operative Terminal active! Type messages and press Enter. Type /quit to exit.",
+      "color": "bright_yellow",
+      "priority": "normal"
+    },
+    {
+      "time": "2025-12-15T13:45:25.902992",
+      "sender": "SYSTEM",
+      "message": "Authenticated as bravo (operative) - Connected to Command Center",
+      "color": "bright_yellow",
+      "priority": "high"
+    },
+    {
+      "time": "2025-12-15T13:45:25.916575",
+      "sender": "SYSTEM",
+      "message": "Operative Terminal active! Type messages and press Enter. Type /quit to exit.",
+      "color": "bright_yellow",
+      "priority": "normal"
+    }
+  ]
+}

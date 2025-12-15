@@ -1,0 +1,78 @@
+{
+  "session_id": "c59db0e5-199a-4ffe-9ecb-ef432f5d1d72",
+  "start_time": "2025-12-15T13:45:35.121005",
+  "end_time": "2025-12-15T13:45:35.121013",
+  "message_count": 10,
+  "messages": [
+    {
+      "time": "2025-12-15T13:45:13.382812",
+      "sender": "SYSTEM",
+      "message": "Command Center operational! Type commands and press Enter. Type /quit to exit.",
+      "color": "bright_yellow",
+      "priority": "normal"
+    },
+    {
+      "time": "2025-12-15T13:45:19.731203",
+      "sender": "SYSTEM",
+      "message": "Agent alpha (field_agent) connected from 127.0.0.1:47684",
+      "color": "bright_yellow",
+      "priority": "high"
+    },
+    {
+      "time": "2025-12-15T13:45:25.902962",
+      "sender": "SYSTEM",
+      "message": "Agent bravo (operative) connected from 127.0.0.1:47696",
+      "color": "bright_yellow",
+      "priority": "high"
+    },
+    {
+      "time": "2025-12-15T13:45:33.213206",
+      "sender": "SYSTEM",
+      "message": "Agent bravo disconnected",
+      "color": "bright_red",
+      "priority": "high"
+    },
+    {
+      "time": "2025-12-15T13:45:33.918825",
+      "sender": "SYSTEM",
+      "message": "Agent alpha disconnected",
+      "color": "bright_red",
+      "priority": "high"
+    },
+    {
+      "time": "2025-12-15T13:45:13.382812",
+      "sender": "SYSTEM",
+      "message": "Command Center operational! Type commands and press Enter. Type /quit to exit.",
+      "color": "bright_yellow",
+      "priority": "normal"
+    },
+    {
+      "time": "2025-12-15T13:45:19.731203",
+      "sender": "SYSTEM",
+      "message": "Agent alpha (field_agent) connected from 127.0.0.1:47684",
+      "color": "bright_yellow",
+      "priority": "high"
+    },
+    {
+      "time": "2025-12-15T13:45:25.902962",
+      "sender": "SYSTEM",
+      "message": "Agent bravo (operative) connected from 127.0.0.1:47696",
+      "color": "bright_yellow",
+      "priority": "high"
+    },
+    {
+      "time": "2025-12-15T13:45:33.213206",
+      "sender": "SYSTEM",
+      "message": "Agent bravo disconnected",
+      "color": "bright_red",
+      "priority": "high"
+    },
+    {
+      "time": "2025-12-15T13:45:33.918825",
+      "sender": "SYSTEM",
+      "message": "Agent alpha disconnected",
+      "color": "bright_red",
+      "priority": "high"
+    }
+  ]
+}
