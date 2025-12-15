@@ -4,6 +4,15 @@
 
 N0-BODYKNOWS is a **military-grade secure communication system** designed for covert operations requiring **maximum security, anti-analysis protection, and operational reliability**. Built with defense-in-depth architecture and triple-layer encryption, it provides secure communications for command centers and field operatives.
 
+## 📋 Project Overview
+
+A comprehensive secure communication platform featuring:
+- **Triple-layer encryption** with AES-256, XOR obfuscation, and Base64 encoding
+- **Military-grade terminal interface** with Rich UI components
+- **Multi-agent architecture** supporting simultaneous secure connections
+- **Cryptographic diversity** with BrainFuck and dual-layer encryption options
+- **Complete operational toolkit** including key management and network testing
+
 ## 🔐 Security Architecture
 
 ### Triple-Layer Encryption System
@@ -41,8 +50,8 @@ chmod +x setup.sh
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/n0-bodyknows.git
-cd n0-bodyknows
+git clone https://github.com/your-repo/N0-Bodyknows.git
+cd N0-Bodyknows
 
 # Create virtual environment (recommended)
 python3 -m venv venv
@@ -93,6 +102,12 @@ python client.py --agent-id admin --host localhost
 | `admin` | System Administrator | `admin123` | Admin |
 | `alpha` | Field Agent | `alpha123` | Field Agent |
 | `bravo` | Special Operative | `bravo123` | Operative |
+| `charlie` | Field Operative | `charlie123` | Operative |
+| `delta` | Support Agent | `delta123` | Operative |
+| `test_agent` | Testing Account | `test123` | Operative |
+| `demo` | Demo Account | `demo123` | Field Agent |
+
+**Note:** Passwords follow the pattern `{agent_id}123` for easy memorization in testing environments. Change passwords in production deployments.
 
 ## 💬 Client Commands
 
@@ -146,20 +161,37 @@ python client.py --agent-id admin --host localhost
 - `enhanced_crypto.py` - Triple-layer encryption engine
 - `config.py` - System configuration and security settings
 - `history_manager.py` - Secure communication logging
+- `crypto_utils.py` - Cryptographic utility functions
 
 **Cryptographic Modules:**
 
-- `brainfuck_crypto.py` - Advanced obfuscation algorithms
+- `brainfuck_crypto.py` - Advanced BrainFuck obfuscation algorithms
 - `obfuscation_crypto.py` - Anti-analysis encryption layers
 - `simple_brainfuck.py` - Lightweight obfuscation utilities
 - `simple_dual_crypto.py` - Dual-layer encryption fallback
-- `crypto_utils.py` - Cryptographic utility functions
+- `enhanced_crypto.py` - Main triple-layer encryption implementation
 
 **Operational Tools:**
 
 - `key_generator.py` - Master key and agent credential management
 - `log_cleaner.py` - Secure evidence removal and log sanitization
 - `network_test.py` - Network connectivity and security testing
+
+**Additional Files:**
+
+- `client_fixed.py` - Alternative client implementation
+- `server_noninteractive.py` - Non-interactive server mode
+- `integration_test.sh` - Automated system testing
+- `setup.sh` - One-click system initialization
+- `start_client.sh` / `start_server.sh` - Startup scripts
+
+**Data Structure:**
+
+- `Data/key_vault/` - Encrypted key storage with agent credentials
+- `Data/sessions/` - Client and server session management
+- `Data/agent_database.json` - Agent information database
+- `Data/chat_history.json` - Encrypted communication logs
+- `Data/server_history.json` - Server activity logs
 
 ## 🛡️ Security Features
 
@@ -434,11 +466,22 @@ For issues, questions, or contributions:
 
 ### Recommended Requirements
 
-- **Python:** 3.10+
+- **Python:** 3.10+ (tested with 3.13)
 - **Memory:** 1GB+ RAM
 - **Storage:** 500MB+ disk space
 - **Network:** Low-latency connection
 - **OS:** Linux (best compatibility)
+
+### Dependencies
+
+Core requirements from `requirements.txt`:
+- `rich>=13.0.0` - Terminal UI and formatting
+- `cryptography>=41.0.0` - AES-256 encryption
+
+Installation:
+```bash
+pip install -r requirements.txt
+```
 
 ## 🎯 Quick Reference Cheat Sheet
 
@@ -503,11 +546,15 @@ python log_cleaner.py --execute
 
 ### Recent Updates
 
-- **Enhanced UI:** Military-grade visual design
-- **Triple-Layer Encryption:** Improved security architecture
-- **Operational Tools:** Key management and network testing
-- **Documentation:** Comprehensive manuals and guides
-- **Error Handling:** Robust exception management
+- **Enhanced UI:** Military-grade visual design with Rich terminal interface
+- **Triple-Layer Encryption:** AES-256 + XOR obfuscation + Base64 encoding
+- **Cryptographic Diversity:** Multiple encryption algorithms including BrainFuck
+- **Operational Tools:** Complete key management and network testing suite
+- **Session Management:** Persistent client and server session storage
+- **Documentation:** Comprehensive manuals and operational guides
+- **Error Handling:** Robust exception management and recovery
+- **Automated Testing:** Integration test suite and validation tools
+- **Multi-Agent Support:** Concurrent secure connections for field operations
 
 ## 🌐 Community
 
