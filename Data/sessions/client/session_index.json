@@ -1,0 +1,28 @@
+{
+  "sessions": [
+    {
+      "session_id": "b5a69e60-38d1-4823-a2cd-40588161f34c",
+      "session_name": "session_20251215_134525",
+      "start_time": "2025-12-15T13:45:33.195021",
+      "end_time": "2025-12-15T13:45:33.195030",
+      "message_count": 4,
+      "filename": "b5a69e60-38d1-4823-a2cd-40588161f34c.json"
+    },
+    {
+      "session_id": "00c552c6-d6e5-4596-9390-f4b75ad398b3",
+      "session_name": "session_20251215_134519",
+      "start_time": "2025-12-15T13:45:33.901821",
+      "end_time": "2025-12-15T13:45:33.901836",
+      "message_count": 4,
+      "filename": "00c552c6-d6e5-4596-9390-f4b75ad398b3.json"
+    },
+    {
+      "session_id": "d636eb10-1577-4c8d-bdf1-ab7b4e026c17",
+      "session_name": "session_20260109_123049",
+      "start_time": "2026-01-09T12:32:02.153401",
+      "end_time": "2026-01-09T12:32:02.153421",
+      "message_count": 10,
+      "filename": "d636eb10-1577-4c8d-bdf1-ab7b4e026c17.json"
+    }
+  ]
+}

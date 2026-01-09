@@ -1,0 +1,148 @@
+{
+  "session_id": "ee1595a4-684c-48b1-b81e-511350c7214a",
+  "start_time": "2026-01-09T12:45:34.823476",
+  "end_time": "2026-01-09T12:45:34.823499",
+  "message_count": 20,
+  "messages": [
+    {
+      "time": "2026-01-09T12:32:06.423114",
+      "sender": "SYSTEM",
+      "message": "Command Center operational! Type commands and press Enter. Type /quit to exit.",
+      "color": "bright_yellow",
+      "priority": "normal"
+    },
+    {
+      "time": "2026-01-09T12:33:32.148238",
+      "sender": "SYSTEM",
+      "message": "Agent alpha (field_agent) connected from 127.0.0.1:51896",
+      "color": "bright_yellow",
+      "priority": "high"
+    },
+    {
+      "time": "2026-01-09T12:34:22.816819",
+      "sender": "alpha",
+      "message": "hi",
+      "color": "bright_cyan",
+      "priority": "normal"
+    },
+    {
+      "time": "2026-01-09T12:34:32.103857",
+      "sender": "COMMAND",
+      "message": "stfu",
+      "color": "bright_green",
+      "priority": "high"
+    },
+    {
+      "time": "2026-01-09T12:34:35.350347",
+      "sender": "COMMAND",
+      "message": "u ass",
+      "color": "bright_green",
+      "priority": "high"
+    },
+    {
+      "time": "2026-01-09T12:34:49.930599",
+      "sender": "alpha",
+      "message": "who ass",
+      "color": "bright_cyan",
+      "priority": "normal"
+    },
+    {
+      "time": "2026-01-09T12:35:02.395372",
+      "sender": "alpha",
+      "message": "me?? noo bro ",
+      "color": "bright_cyan",
+      "priority": "normal"
+    },
+    {
+      "time": "2026-01-09T12:35:04.160301",
+      "sender": "alpha",
+      "message": "u ass",
+      "color": "bright_cyan",
+      "priority": "normal"
+    },
+    {
+      "time": "2026-01-09T12:38:25.289994",
+      "sender": "alpha",
+      "message": "hi",
+      "color": "bright_cyan",
+      "priority": "normal"
+    },
+    {
+      "time": "2026-01-09T12:45:08.950253",
+      "sender": "SYSTEM",
+      "message": "Agent alpha disconnected",
+      "color": "bright_red",
+      "priority": "high"
+    },
+    {
+      "time": "2026-01-09T12:32:06.423114",
+      "sender": "SYSTEM",
+      "message": "Command Center operational! Type commands and press Enter. Type /quit to exit.",
+      "color": "bright_yellow",
+      "priority": "normal"
+    },
+    {
+      "time": "2026-01-09T12:33:32.148238",
+      "sender": "SYSTEM",
+      "message": "Agent alpha (field_agent) connected from 127.0.0.1:51896",
+      "color": "bright_yellow",
+      "priority": "high"
+    },
+    {
+      "time": "2026-01-09T12:34:22.816819",
+      "sender": "alpha",
+      "message": "hi",
+      "color": "bright_cyan",
+      "priority": "normal"
+    },
+    {
+      "time": "2026-01-09T12:34:32.103857",
+      "sender": "COMMAND",
+      "message": "stfu",
+      "color": "bright_green",
+      "priority": "high"
+    },
+    {
+      "time": "2026-01-09T12:34:35.350347",
+      "sender": "COMMAND",
+      "message": "u ass",
+      "color": "bright_green",
+      "priority": "high"
+    },
+    {
+      "time": "2026-01-09T12:34:49.930599",
+      "sender": "alpha",
+      "message": "who ass",
+      "color": "bright_cyan",
+      "priority": "normal"
+    },
+    {
+      "time": "2026-01-09T12:35:02.395372",
+      "sender": "alpha",
+      "message": "me?? noo bro ",
+      "color": "bright_cyan",
+      "priority": "normal"
+    },
+    {
+      "time": "2026-01-09T12:35:04.160301",
+      "sender": "alpha",
+      "message": "u ass",
+      "color": "bright_cyan",
+      "priority": "normal"
+    },
+    {
+      "time": "2026-01-09T12:38:25.289994",
+      "sender": "alpha",
+      "message": "hi",
+      "color": "bright_cyan",
+      "priority": "normal"
+    },
+    {
+      "time": "2026-01-09T12:45:08.950253",
+      "sender": "SYSTEM",
+      "message": "Agent alpha disconnected",
+      "color": "bright_red",
+      "priority": "high"
+    }
+  ]
+}

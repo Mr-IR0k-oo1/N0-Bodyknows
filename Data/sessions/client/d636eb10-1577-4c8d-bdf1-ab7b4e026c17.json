@@ -1,0 +1,78 @@
+{
+  "session_id": "d636eb10-1577-4c8d-bdf1-ab7b4e026c17",
+  "start_time": "2026-01-09T12:32:02.153401",
+  "end_time": "2026-01-09T12:32:02.153421",
+  "message_count": 10,
+  "messages": [
+    {
+      "time": "2026-01-09T12:30:49.157877",
+      "sender": "SYSTEM",
+      "message": "Authenticated as alpha (field_agent) - Connected to Command Center",
+      "color": "bright_yellow",
+      "priority": "high"
+    },
+    {
+      "time": "2026-01-09T12:30:49.182817",
+      "sender": "SYSTEM",
+      "message": "Operative Terminal active! Type messages and press Enter. Type /quit to exit.",
+      "color": "bright_yellow",
+      "priority": "normal"
+    },
+    {
+      "time": "2026-01-09T12:30:56.080204",
+      "sender": "YOU",
+      "message": "hi",
+      "color": "bright_green",
+      "priority": "normal"
+    },
+    {
+      "time": "2026-01-09T12:30:59.837500",
+      "sender": "COMMAND",
+      "message": "hi bro",
+      "color": "bright_green",
+      "priority": "high"
+    },
+    {
+      "time": "2026-01-09T12:31:59.580962",
+      "sender": "SYSTEM",
+      "message": "Command Center disconnected",
+      "color": "bright_red",
+      "priority": "critical"
+    },
+    {
+      "time": "2026-01-09T12:30:49.157877",
+      "sender": "SYSTEM",
+      "message": "Authenticated as alpha (field_agent) - Connected to Command Center",
+      "color": "bright_yellow",
+      "priority": "high"
+    },
+    {
+      "time": "2026-01-09T12:30:49.182817",
+      "sender": "SYSTEM",
+      "message": "Operative Terminal active! Type messages and press Enter. Type /quit to exit.",
+      "color": "bright_yellow",
+      "priority": "normal"
+    },
+    {
+      "time": "2026-01-09T12:30:56.080204",
+      "sender": "YOU",
+      "message": "hi",
+      "color": "bright_green",
+      "priority": "normal"
+    },
+    {
+      "time": "2026-01-09T12:30:59.837500",
+      "sender": "COMMAND",
+      "message": "hi bro",
+      "color": "bright_green",
+      "priority": "high"
+    },
+    {
+      "time": "2026-01-09T12:31:59.580962",
+      "sender": "SYSTEM",
+      "message": "Command Center disconnected",
+      "color": "bright_red",
+      "priority": "critical"
+    }
+  ]
+}
